@@ -6,4 +6,6 @@ data = {'cle': 'CLE-TEST-IOT', 'donnees' : ['tahina.foucher@outlook.com','16/09/
 
 r = requests.post(url, data=json.dumps(data))
 
+print(r.content)
+
 
